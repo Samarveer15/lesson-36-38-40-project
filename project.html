@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Restaurant;)</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: pink;
+      color: #fff;
+      padding: 10px 20px;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      display: flex;
+      background: burlywood;
+      padding: 10px;
+      justify-content: space-around;
+    }
+    nav a {
+      color: rgb(12, 20, 235);
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .banner {
+      background: url('https://via.placeholder.com/1200x400') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #58f51ac0;
+    }
+    .banner h2 {
+      margin: 0;
+      font-size: 2.5rem;
+      background: rgb(0, 10, 11);
+      padding: 10px;
+    }
+    .portfolio, .social-media, footer {
+      padding: 20px;
+      text-align: center;
+    }
+    .portfolio h2, .social-media h2 {
+      margin-bottom: 20px;
+    }
+    .portfolio div, .social-media div {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .portfolio .item, .social-media .icon {
+      margin: 10px;
+      background: #1c8cb1;
+      padding: 20px;
+      border-radius: 5px;
+    }
+    footer {
+      background: #333333;
+      color: red;
+      padding: 10px 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h>La Restuaranto;)</h></h1>
+  </header>
+  <nav>
+    <a href="#banner">Home</a>
+    <a href="#portfolio">Special Menu</a>
+    <a href="#social-media">Social Media</a>
+    <a href="#footer">Contact</a>
+  </nav>
+  <section id="banner" class="banner">
+    <h2>La Restuarento ;)</h2>
+  </section>
+  <section id="portfolio" class="portfolio">
+    <h2>SPECIAL MENU</h2>
+    <div>
+      <div class="item">Lobster Soup</div>
+      <div class="item">King Crab Pasta</div>
+      <div class="item">Poemfry Sushi</div>
+    </div>
+  </section>
+  <section id="social-media" class="social-media">
+    <h2>Connect with Me</h2>
+    <div>
+      <div class="icon">Facebook</div>
+      <div class="icon">Twitter</div>
+      <div class="icon">LinkedIn</div>
+    </div>
+  </section>
+  <footer id="footer">
+    <p>&copy; BEST 5 STAR RESTAURANT!!!.RESERVE YOUR BOOKING BEFORE COMING!!.</p>
+  </footer>
+</body>
+</html>
